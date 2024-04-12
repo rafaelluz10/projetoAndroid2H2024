@@ -13,10 +13,10 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
-            android:name=".login"
+            android:name=".CreateUsuario"
             android:exported="false" />
         <activity
-            android:name=".Apresentacao"
+            android:name=".LoginBaggio"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
