@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login"
+    android:background="@drawable/vermelho"
+    >
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arrow"
+
+    <TextView
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+    <ImageView
+        android:layout_width="397dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/oracle" />
+
+    <EditText
+        android:paddingTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:text="Insira seu usuário"
+        android:textSize="20dp"
+        android:drawableStart="@drawable/person"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="numberPassword"
+        android:maxLength="50"
+        android:text="Insira sua senha"
+        android:textSize="20dp"
+        android:drawableStart="@drawable/baseline_app_blocking_24"
+        android:textColor="@color/white"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:padding="15dp"
+        android:src="@drawable/door"
+        android:background="@color/material_on_surface_emphasis_high_type"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Don't Have An Account? Sign Up!"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>
